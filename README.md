@@ -16,4 +16,3 @@ In case your are either pulling or pushing to a private registry.
 ansible-builder create -v 3
 podman build --authfile .authfile -f context/Containerfile -t ansible-execution-env:latest context
 ```
-x
